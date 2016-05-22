@@ -3,7 +3,7 @@ $(call inherit-product, device/lge/v400/full_v400.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := cm_v400
+PRODUCT_NAME := candy_v400
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="v400" \

@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/v400/full_v400.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/candy/config/common_full_tablet_wifionly.mk)
+# Inherit some common Candy stuff.
+$(call inherit-product, vendor/candy/config/common.mk)
 
 PRODUCT_NAME := candy_v400
 
